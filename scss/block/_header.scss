@@ -1,0 +1,60 @@
+.header {
+  padding-top: 36px;
+}
+
+.header_canteiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header_link {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.header_item {
+  position: relative;
+}
+
+.header_box {
+  opacity: 0;
+  border: 1px solid #0082F4;
+  width: 54px;
+  position: absolute;
+  margin-top: 33px;
+}
+
+.header_item:hover .header_box {
+  opacity: 1;
+}
+
+.header_link:hover {
+  color: #0082F4;
+}
+
+.header_btn {
+  color: #FFF;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 15px 30px;
+  border-radius: 6px;
+  background: #0082F4;
+  border: none;
+  cursor: pointer;
+}
+
+.header_page {
+  width: 1600px;
+  height: 1px;
+  opacity: 0.1;
+  background: #0283F5;
+  margin-top: 10px;
+}

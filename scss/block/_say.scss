@@ -1,0 +1,143 @@
+.say {
+  padding-top: 124px;
+  padding-bottom: 176px;
+}
+
+.say_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.say_button {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+
+}
+
+.say_title {
+  color: #000;
+  font-size: 48.44px;
+  font-weight: 500;
+  line-height: 150%;
+  width: 712px;
+}
+
+.say_btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f2f9ff;
+  position: relative;
+  border: none;
+  cursor: pointer;
+}
+
+.say_btn::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 9px;
+  height: 18px;
+  color: #0187FD;
+  right: 20.5px;
+  top: 16px;
+}
+
+.say_btn:nth-child(1)::before {
+  background-image: url(../img/say_btm1.svg);
+}
+
+.say_btn:nth-child(2)::before {
+  background-image: url(../img/say_btn2.svg);
+}
+
+.say_card {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 67px;
+}
+
+.say_cards {
+  width: 420px;
+  border-radius: 10px;
+  border: 1px solid #e5f2fe;
+  box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.say_content1 {
+  width: 62px;
+  height: 283px;
+  background-color: #0082F4;
+  border-radius: 10px 0 0 10px;
+}
+
+.say_text {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  width: 201px;
+  margin: 30px 92px 0 65px;
+  opacity: 0.7;
+}
+
+.say_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 45px;
+  margin-right: 91px;
+}
+
+.say_items {
+  width: 30px;
+  height: 2px;
+  opacity: 0.7;
+  background: #000;
+}
+
+.say_item_title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.say_capition {
+  margin-top: 10px;
+  margin-left: 105px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  opacity: 0.5;
+  margin-bottom: 30px;
+}
+
+.say_cards::before {
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 61px;
+  height: 61px;
+  left: 30px;
+}
+
+.say_cards:nth-child(1)::before {
+  background-image: url(../img/say_card.img.svg);
+}
+
+.say_cards:nth-child(2)::before {
+  background-image: url(../img/say_card.img2.svg);
+}
